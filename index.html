@@ -6,29 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
-   <!---
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
---> 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    <script src="https://code.jquery.com/jquery-3.6.0.js"integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Memory Farm</title>
 </head>
 <body>
-    <h1 class="heading"> Memory Farm <img class="logo" src="assets/images/farmhouse-logo.png" alt="logo"></h1>
+    <header class="heading">
+        <h1>Memory Farm<img class="logo" src="assets/images/farmhouse-logo.png"></h1> 
+    </header>
 
-    <div class="game-area container"> 
-        <div class="buttons-area row">
-            <div class="col-xs-6 col-md-3 icon"><img class="image" id= "cow-icon" src="assets/images/cow-icon.png"></div>
-            <div class="col-xs-6 col-md-3 icon"><img class="image" id= "sheep-icon" src="assets/images/sheep-icon.png"></div>
+    <div class="game-area"> 
+        <div class="buttons-area">
+            <div class="icon"><img class="image" id= "chicken-icon" src="assets/images/chicken-icon.png"></div>
+            <div class="icon"><img class="image" id= "cow-icon" src="assets/images/cow-icon.png"></div>
         </div>
-        <div class="buttons-area row">
-            <div class="col-xs-6 col-md-3 icon"><img class="image" id= "chicken-icon" src="assets/images/chicken-icon.png"></div>
-            <div class="col-xs-6 col-md-3 icon"><img class="image" id= "pig-icon" src="assets/images/pig-icon.png"></div>
+        
+        <div>
+            <div class="icon"><img class="image" id= "pig-icon" src="assets/images/pig-icon.png"></div>
+            <div class="icon"><img class="image" id= "sheep-icon" src="assets/images/sheep-icon.png"></div>
         </div>
+
+        <div class="score-area">
+            <p>Score: 0</p>
+            <p>High Score: 0</p>
+        </div>
+
+        <button class="btn">Start</button>
     </div>
     <div class="text-area">
-
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae a magnam ad unde, quasi praesentium provident facilis sint ea ex ipsum cupiditate repellendus, recusandae laborum veniam porro, nostrum molestias.</p>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
